@@ -1,3 +1,4 @@
 # xqusp.cfd
 
-Website made with github copilot
+Personal portfolio.
+
