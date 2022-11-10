@@ -1,4 +1,14 @@
-body {
-    background-color: #1b1b1b;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #292C35;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+}
+
