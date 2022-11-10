@@ -1,4 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #1b1b1b;
+    display: flex;
+    background-color: #292C35;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+}
+
+
+#xquspcfd{
+    width: 800px;
+    position: relative;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #33353f;
+    right: -500px;
+    font-size: 2em;
+    color: #d6d3ca;
+    
+}
+
+
+p{
+    position: relative;
+    right: -500px;
+    color: #d6d3ca;
+}
+a{
+    position: relative;
+    right: -500px;
+    color: #d6d3ca;
+    text-decoration: none;
+}
+
+.socials{
+    color: #1a1b20;
+    position: relative;
+    right: -1800px;
+    top: 40px
+    
+}
+
+.fa-youtube {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.fa-discord {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.fa-discord:hover {
+    color: #15171b;
+}
+
+.fa-youtube:hover {
+    color: #15171b;
+
 }
